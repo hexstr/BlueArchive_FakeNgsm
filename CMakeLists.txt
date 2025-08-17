@@ -3,7 +3,7 @@
 #
 cmake_minimum_required (VERSION 3.21)
 
-project ("ngsm")
+project ("grap")
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -12,4 +12,4 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/output/${CMAKE_BUILD_TYPE})
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/output/${CMAKE_BUILD_TYPE})
 
 # 包含子项目。
-add_subdirectory ("ngsm")
+add_subdirectory ("grap")

@@ -1,9 +1,9 @@
-﻿# CMakeList.txt: ngsm 的 CMake 项目，在此处包括源代码并定义
+﻿# CMakeList.txt: grap 的 CMake 项目，在此处包括源代码并定义
 # 项目特定的逻辑。
 #
 cmake_minimum_required (VERSION 3.21)
 
-set(LIBRARY_NAME ngsm)
+set(LIBRARY_NAME grap)
 message("Building library: ${LIBRARY_NAME}")
 
 # 添加头文件目录
